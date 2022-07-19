@@ -1,3 +1,8 @@
+(function (exports, require, module, __filename, __dirname) {
+    
+})
+
+
 class Person {
     constructor(name, age, address, city, region) {
         this.name = name ;
