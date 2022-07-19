@@ -8,7 +8,7 @@ class Person {
     }
 
     greeting() {
-        console.log(`Congratulations, ${this.name}`)
+        console.log(`Congratulations ${this.name}, your admission has been submitted successfully`)
     }
 }
 
