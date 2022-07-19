@@ -1,0 +1,25 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "Node Backend Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theboybreyy/AIS-Backend.git"
+  },
+  "author": "Lex Benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theboybreyy/AIS-Backend/issues"
+  },
+  "homepage": "https://github.com/theboybreyy/AIS-Backend#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
