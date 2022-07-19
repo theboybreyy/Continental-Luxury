@@ -12,3 +12,9 @@ fs.writeFile(path.join(__dirname, '/test', 'hello.py'), 'Hello World, this is a 
     if (err) throw console.warn(err);
     console.log('File written to...')
 });
+
+
+fs.writeFile(path.join(__dirname, '/test', 'script.shell'), 'Hello World, this is a Python File!', err => {
+    if (err) throw console.warn(err);
+    console.log('File written to...')
+});
