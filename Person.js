@@ -1,7 +1,9 @@
-(function (exports, require, module, __filename, __dirname) {
-    
-})
+// (function (exports, require, module, __filename, __dirname) {
 
+// })
+
+
+// console.log(__dirname, __filename )
 
 class Person {
     constructor(name, age, address, city, region) {
