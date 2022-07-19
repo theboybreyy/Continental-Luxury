@@ -35,7 +35,7 @@ fs.readFile(path.join(__dirname, '/test', 'hello.py'), 'utf-8', (err, data) => {
 
 
 // Rename A File
-fs.rename(path.join(__dirname, '/test', 'hello.py'), 'utf-8', (err, data) => {
+fs.rename(path.join(__dirname, '/test', 'hello.py'),path.join(__dirname, '/test', 'script.py'), (err) => {
     if (err) throw console.warn(err);
-    console.log(data);
+    console.log('File renamed successfully...');
 });
