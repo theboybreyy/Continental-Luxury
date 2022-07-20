@@ -7,3 +7,4 @@ console.log(myUrl.href);
 console.log(myUrl.toString());
 
 // Host Root
+console.log(myUrl.host)
