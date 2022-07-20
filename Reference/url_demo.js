@@ -17,3 +17,6 @@ console.log(myUrl.pathname);
 
 // Serialized Query
 console.log(myUrl.search)
+
+// Parameter Objects
+console.log(myUrl.searchParams)
