@@ -50,6 +50,15 @@ const server = http.createServer((req, res) => {
             break;
     }
 
+    // Read File
+    fs.readFile(filePath, (err, content) => {
+        if(err) {
+            if(err.code == 'ENOENT'){
+                // Page Note Found
+                
+            }
+        }
+    })
 
 })
 
