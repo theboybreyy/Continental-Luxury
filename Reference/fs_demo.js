@@ -26,16 +26,19 @@ const path = require('path');
 
 
 
-// Read File
-fs.readFile(path.join(__dirname, '/test', 'hello.py'), 'utf-8', (err, data) => {
-        if (err) throw console.warn(err);
-        console.log(data);
-    });
+// // Read File
+// fs.readFile(path.join(__dirname, '/test', 'hello.py'), 'utf-8', (err, data) => {
+//         if (err) throw console.warn(err);
+//         console.log(data);
+//     });
 
 
 
 // Rename A File
-fs.rename(path.join(__dirname, '/test', 'hello.py'),path.join(__dirname, '/test', 'script.py'), (err) => {
-    if (err) throw console.warn(err);
-    console.log('File renamed successfully...');
-});
+fs.rename(
+    path.join(__dirname, '/test', 'hello.py'),
+    path.join(__dirname, '/test', 'script.py'),
+    (err) => {
+        if (err) throw console.warn(err);
+        console.log('File renamed successfully...');
+    });
