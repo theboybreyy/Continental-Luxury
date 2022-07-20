@@ -8,3 +8,6 @@ console.log(os.arch());
 
 // CPU Core Information
 console.log(os.cpus());
+
+// Free Memory
+console.log(os.freemem())
