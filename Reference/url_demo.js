@@ -11,3 +11,5 @@ console.log(myUrl.host)
 
 // Hostname
 console.log(myUrl.hostname)
+
+// Path Name
