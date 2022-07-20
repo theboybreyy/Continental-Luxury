@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
 
     // Build File Path
     let filePath = path.join(__dirname, 'Public', req.url === '/' ? 'index.html' : req.url);
-   
+
     // Extension of File
     let extname = path.extname(filePath);
 
@@ -32,7 +32,23 @@ const server = http.createServer((req, res) => {
     let contentType = 'text/html';
 
     // Check Ext and Set Content Type
-    
+    switch (extname) {
+        case '.js':
+            contentType = 'text/javascript';
+            break;
+        case '.css':
+            contentType = 'text/css';
+            break;
+        case '.json':
+            contentType = 'application/json';
+            break;
+        case '.png':
+            contentType = 'image/png';
+            break;
+        case '.jpg':
+            contentType = 'image/jpg';
+            break;
+    }
 
 
 })
