@@ -36,8 +36,8 @@ const path = require('path');
 
 // Rename A File
 fs.rename(
-    path.join(__dirname, '/test', 'script.py'),
-    path.join(__dirname, '/test', 'app.py'),
+    path.join(__dirname, '/test', 'script.ex'),
+    path.join(__dirname, '/test', 'app.ts'),
     err => {
         if (err) throw err;
         console.log('File renamed successfully...');
