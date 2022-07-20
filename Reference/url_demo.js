@@ -14,3 +14,6 @@ console.log(myUrl.hostname)
 
 // Path Name
 console.log(myUrl.pathname);
+
+// Serialized Query
+console.log(myUrl.search)
