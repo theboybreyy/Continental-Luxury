@@ -4,6 +4,7 @@ const os = require ('os');
 console.log(os.platform());
 
 // CPU Architecture
-console.warn(os.arch());
+console.log(os.arch());
 
-// 
+// CPU Core Information
+console.log(os.cpus());
