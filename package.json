@@ -4,8 +4,9 @@
   "description": "Node Backend Course",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node index", 
+    "dev": "nodemon index"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theboybreyy/AIS-Backend.git"
