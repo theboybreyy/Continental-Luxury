@@ -1,1 +1,2 @@
-I love Node JS
+// I love Node JS
+var x = 500;
