@@ -1043,3 +1043,38 @@ input {
   }
 }
  
+/* Preloader CSS */
+.preloader{
+  height: 100%;
+  width: 100%;
+  background: #eee;
+  position: fixed !important;
+  left: 0;
+  z-index: 9999999;
+  top: 0;
+}
+
+.spinner{
+  width: 200px;
+  height: 5px;
+  border-top: 3px solid #0B4A53;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation: loader 1s infinite ease-in-out;
+}
+
+@keyframes loader {
+  100%{
+    transform: ;
+  }
+  50%{
+    transform: (360deg);
+  }
+  0%{
+    transform:(360deg);
+  }
+}
