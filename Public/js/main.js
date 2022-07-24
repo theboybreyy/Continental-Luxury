@@ -176,5 +176,5 @@ themeButton.addEventListener('click', () => {
 // Preloader JS
 const preloader = document.querySelector(".preloader");
 window.addEventListener("load", () => {
-    // preloader.style.display = "none";
+    preloader.style.display = "none";
 })
