@@ -1057,7 +1057,20 @@ input {
 .spinner{
   width: 200px;
   height: 5px;
-  border-top: 3px solid #0B4A53;
+  border: 3px solid #0B4A53;
+  opacity: .7;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 5px;
+}
+.line{
+  width: 80px;
+  height: 4px;
+  border: 3px solid #0B4A53;
   position: absolute;
   margin: auto;
   top: 0;
