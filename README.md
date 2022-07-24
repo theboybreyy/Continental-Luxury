@@ -8,6 +8,6 @@
 - Kind Coutersy [neophyte-programmer](https://github.com/neophyte-programmer)'
 - This is a rendition of [neophyte-programmer](https://github.com/neophyte-programmer)'s Travel Website
 - This Website allows Users to scout and book for aethestic and luxurious places around the Globe.
--A Bibabrey Initiative © 2022
+-A Bibabrey [theboybreyy](https://github.com/theboybreyy) Initiative © 2022
 
 
