@@ -172,3 +172,9 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// Preloader JS
+const preloader = document.querySelector(".preloader");
+window.addEventListener("load", () => {
+    // preloader.style.display = "none";
+})

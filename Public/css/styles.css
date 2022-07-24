@@ -1054,6 +1054,17 @@ input {
   top: 0;
 }
 
+.preloader h4{
+  font-family: 'Playfair Display';
+  color: #0B4A53;
+  position: absolute !important;
+  font-size: 18px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
 .spinner{
   width: 240px;
   height: 3px;
