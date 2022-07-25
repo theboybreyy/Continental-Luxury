@@ -1113,13 +1113,15 @@ input {
   }
 }
 
-/* Form Container */
+/* Form Container
 .form-container{
-  background: #c9d9dc;
+  background: #273031;
   height: 80vh;
   width: 90vw;
-  left: 0;
-  top: 0;
+  left: 4rem;
+  top: 0 !important;
   position: absolute;
-  margin: auto;
-}
+  margin: auto !important;
+  justify-content: center;
+  align-items: center;
+} */
