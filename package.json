@@ -4,9 +4,9 @@
   "description": "Node Backend Course",
   "main": "index.js",
   "scripts": {
-    "start": "node index", 
+    "start": "node index",
     "dev": "nodemon index"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theboybreyy/AIS-Backend.git"
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/theboybreyy/AIS-Backend#readme",
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
