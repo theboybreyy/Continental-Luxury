@@ -65,3 +65,8 @@
     cursor: pointer;
     font-weight: bold;
   }
+
+  marquee a {
+    font-weight: bold;
+    font-family: 'Playfair Display';
+  }
