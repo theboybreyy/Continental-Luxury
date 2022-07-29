@@ -63,4 +63,5 @@
   /* Manquee */
   marquee{
     cursor: pointer;
+    font-weight: bold;
   }
